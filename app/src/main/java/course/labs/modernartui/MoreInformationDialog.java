@@ -32,7 +32,7 @@ import android.widget.Button;
  * @author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
  * @version 1.0
  * @since 2015-06-04
- * @see <a href='http://www.thinkageek.com/metsinis/'>http://www.thinkageek.com/metsinis/</a>
+ * @see <a href='http://aristotelis-metsinis.github.io/'>http://aristotelis-metsinis.github.io/</a>
  *
  */
 public class MoreInformationDialog extends DialogFragment
