@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define "drawables" for the "DropDownListView" selector styling.
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime" >
+
+    <item android:state_pressed="false"
+        android:state_focused="true"
+        android:drawable="@drawable/menu_background_styling" />
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/menu_background_styling_pressed" />
+
+    <item android:drawable="@android:color/transparent" />
+
+</selector>

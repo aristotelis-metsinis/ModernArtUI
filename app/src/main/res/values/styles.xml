@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define "style" resources.
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:logo">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:actionBarWidgetTheme">@style/ThemeMenuStyling</item>
+    </style>
+
+    <!-- "ActionBar" style. -->
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/holo_blue_dark</item>
+    </style>
+
+    <!-- "PopupMenu" panel style. -->
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_background_styling</item>
+    </style>
+
+    <!-- "DropDownListView" selector style. -->
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/menu_background_styling_selectable</item>
+    </style>
+
+    <!-- Theme, which applies the styles that have been already configured above, at runtime. -->
+    <style name="ThemeMenuStyling" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+    </style>
+
+    <!-- Add fade-in/out animations to the style of a "dialog" fragment. -->
+    <style name="dialog_animation_fade" >
+        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_fade_out</item>
+    </style>
+
+</resources>

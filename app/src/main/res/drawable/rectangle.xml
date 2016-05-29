@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define (rectangle) "drawable" for the styling of the (colored) "View" layout components.
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/white" />
+
+    <stroke
+        android:width="0dp"
+        android:color="@color/black" />
+
+</shape>

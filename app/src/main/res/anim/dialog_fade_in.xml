@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define the "fade-in" animation of the applications' (pop-up) dialog (fragment).
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:duration="500" />

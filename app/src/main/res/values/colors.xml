@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define "colour" resources.
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<resources>
+
+    <color name="blue"   type="color">#0000ff</color>
+    <color name="purple" type="color">#800080</color>
+    <color name="green"  type="color">#00ff00</color>
+    <color name="orange" type="color">#ffa500</color>
+    <color name="red"    type="color">#ff0000</color>
+    <color name="yellow" type="color">#ffff00</color>
+    <color name="white"  type="color">#ffffff</color>
+    <color name="black"  type="color">#000000</color>
+    <color name="gray"   type="color">#808080</color>
+
+    <color name="holo_blue_dark"    type="color">@android:color/holo_blue_dark</color>
+    <color name="holo_blue_light"   type="color">@android:color/holo_blue_light</color>
+
+</resources>

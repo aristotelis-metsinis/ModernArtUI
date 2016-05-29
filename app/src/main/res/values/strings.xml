@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Define "string" resources.
+ *
+ * author Aristotelis Metsinis (aristotelis.metsinis@gmail.com)
+ * version 1.0
+ * since 2015-06-04
+ * see http://www.thinkageek.com/metsinis/
+-->
+<resources>
+
+    <string name="app_name">Modern Art UI</string>
+    <string name="overflow_menu">More Information</string>
+    <string name="dialog_visit_moma_button">Visit MOMA</string>
+    <string name="dialog_not_now_button">Not Now</string>
+    <string name="dialog_message">inspired by the works of Modern Art masters such as Piet Mondrian and Ben Nicholson</string>
+    <string name="dialog_action_message">click below to learn more !</string>
+    <string name="url">http://www.moma.org</string>
+
+</resources>
